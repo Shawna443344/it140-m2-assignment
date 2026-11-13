@@ -56,7 +56,7 @@
 >
 > Enter your response below.
 
-TODO: Replace this text with your one-sentence summary of the program's purpose
+Shawna: This program will be used to welcome a person, and state their age given the current year. 
 
 ### 3. Inputs, Processing, and Outputs
 
@@ -73,8 +73,11 @@ TODO: Replace this text with your one-sentence summary of the program's purpose
 > **Prompt:** What information does the program receive or obtain? Identify each input or internally obtained value the program needs and where it comes from.
 >
 > Enter your response below. Use a separate numbered bullet for each input.
-
-1. TODO: Replace with your first input and its source (e.g., user input, system value, internal value).
+Shawna answer:
+2. Name which would be user inpuut
+3. The current year which is the system vaule
+4. The next would be the birth year which could be user input or internal value if the system already has the birth years listen
+5. The greeting of "Hello" would/could be a hardcode and will be user input. 
 
 > **Where to look:** [SRS](./analysis/name_age_srs.md) → `## 1. Functional Requirements`, especially requirement **1.3**
 >
@@ -82,7 +85,9 @@ TODO: Replace this text with your one-sentence summary of the program's purpose
 >
 > Enter your response below. Use a separate numbered bullet for each input.
 
-1. TODO: Replace with your first input and its data type (e.g., string, integer, float, Not specified).
+1. Name would be a string since it has characters
+2. Birth year would be an integer since it is a whole numnber
+3. 
 
 #### IPO: Processing
 
@@ -94,7 +99,10 @@ TODO: Replace this text with your one-sentence summary of the program's purpose
 >
 > Enter a brief description in your own words below. Use a separate numbered bullet for each process.
 
-1. TODO: Replace with your first processing step in your own words.
+1. The system has tpo capture the inouts that were entered.
+2. The seocnd is to clean the code to ensure the code is vaild
+3. IT makes sure there is no error with the code and if there is an error will populate and the user can retry
+4. Once settled the input would be ready to produce the output
 
 #### IPO: Outputs
 
@@ -106,7 +114,11 @@ TODO: Replace this text with your one-sentence summary of the program's purpose
 >
 > Enter your response below. Use a separate numbered bullet for each output.
 
-1. TODO: Replace with your first output and where it is displayed (e.g., console, file, GUI).
+1. First output will be the greeting or Hello or Welcome which would show on the consule
+2. Second output would be the name we are referencing which will be produced on the console as well
+3. Third output would be the you will be = consule
+4. Fourth output will be the current age-birth year which would be file
+5. Fifth output will be the age of the person be on console 
 
 > **Where to look:** [SRS](./analysis/name_age_srs.md) → `## 1. Functional Requirements`, requirement **1.5**, and `## Sample Input and Output`
 >
@@ -114,7 +126,7 @@ TODO: Replace this text with your one-sentence summary of the program's purpose
 >
 > Enter your response below. Use a separate numbered bullet for each output format.
 
-1. TODO: Replace with your first output format.
+Format is "hello 9name)! You were born in (birth year).
 
 ### 4. Requirements in My Own Words
 
@@ -130,7 +142,7 @@ TODO: Replace this text with your one-sentence summary of the program's purpose
 >
 > Enter your response below in your own words.
 
-Replace this text with your explanation of requirement 1.2 in your own words.
+Will need the user to input their birthday
 
 #### SRS Requirement 1.3 — Use the Age in an Arithmetic Calculation
 
@@ -140,7 +152,7 @@ Replace this text with your explanation of requirement 1.2 in your own words.
 >
 > Enter your response below in your own words.
 
-TODO: Replace this text with your explanation of requirement 1.3 in your own words.
+TODO: Use the answer to thier birthday question as a whole number
 
 #### SRS Requirement 1.4 — Calculate the Approximate Birth Year
 
@@ -150,7 +162,7 @@ TODO: Replace this text with your explanation of requirement 1.3 in your own wor
 >
 > Enter your response below.
 
-Replace this text with your explanation of requirement 1.4 in your own words.
+Take birthyear and subtract from current year
 
 #### SRS Requirement 1.5 — Display the Personalized Result
 
@@ -160,7 +172,7 @@ Replace this text with your explanation of requirement 1.4 in your own words.
 >
 > Enter your response below.
 
-TODO: Replace this text with your explanation of requirement 1.5 in your own words.
+Will bring final result of the users name and the year they were born
 
 ### 5. Constraints and Special Cases
 
